@@ -1,0 +1,30 @@
+{
+  "mcpServers": {
+    "playwright": {
+      "command": "node",
+      "args": [
+        "D:\\pi\\wechat-pi-bridge\\node_modules\\@playwright\\mcp\\cli.js",
+        "--browser",
+        "msedge"
+      ],
+      "enabled": true,
+      "exposure": "direct",
+      "description": "浏览器自动化：打开页面、点击、填表、截图、UI 测试"
+    },
+    "amap-maps": {
+      "enabled": true
+    },
+    "context7": {
+      "enabled": true
+    },
+    "markitdown": {
+      "enabled": true
+    },
+    "pptx": {
+      "enabled": true
+    },
+    "wechat": {
+      "enabled": false
+    }
+  }
+}
